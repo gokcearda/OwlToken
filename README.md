@@ -59,23 +59,22 @@ Temel fonksiyonlar:
 
 ## Dosya Yapısı
 
+```plaintext
 owltoken/
 ├── src/
-│ ├── lib.rs # Kontrat ana entegrasyonu
-│ ├── contract.rs # Transfer ve toplam arz
-│ ├── admin.rs # Admin kontrolleri, mint/burn
-│ ├── balance.rs # Bakiye işlemleri
-│ ├── allowance.rs # İzin/harcama sistemi
-│ ├── freeze.rs # Hesap dondurma
-│ ├── metadata.rs # Token bilgi işlevleri
-│ ├── storage_types.rs # Storage anahtarları
-│ └── test.rs # Temel unit/integration testler
+│   ├── lib.rs             # Kontrat ana entegrasyonu
+│   ├── contract.rs        # Transfer ve toplam arz
+│   ├── admin.rs           # Admin kontrolleri, mint/burn
+│   ├── balance.rs         # Bakiye işlemleri
+│   ├── allowance.rs       # İzin/harcama sistemi
+│   ├── freeze.rs          # Hesap dondurma
+│   ├── metadata.rs        # Token bilgi işlevleri
+│   ├── storage_types.rs   # Storage anahtarları
+│   └── test.rs            # Temel unit/integration testler
 ├── Cargo.toml
 ├── README.md
 └── assets/
-└── image.png # OwlToken logosu
-
-
+    └── image.png          # OwlToken logosu
 ---
 
 ## Katkı & Lisans
