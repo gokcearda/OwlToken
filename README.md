@@ -75,8 +75,9 @@ owltoken/
 ├── README.md
 └── assets/
     └── image.png          # OwlToken logosu
----
 
+```
+---
 ## Katkı & Lisans
 
 Her türlü geri bildirime ve katkıya açığız.  
