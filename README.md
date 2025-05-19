@@ -58,3 +58,35 @@ Temel fonksiyonlar:
 ---
 
 ## Dosya Yapısı
+
+owltoken/
+├── src/
+│ ├── lib.rs # Kontrat ana entegrasyonu
+│ ├── contract.rs # Transfer ve toplam arz
+│ ├── admin.rs # Admin kontrolleri, mint/burn
+│ ├── balance.rs # Bakiye işlemleri
+│ ├── allowance.rs # İzin/harcama sistemi
+│ ├── freeze.rs # Hesap dondurma
+│ ├── metadata.rs # Token bilgi işlevleri
+│ ├── storage_types.rs # Storage anahtarları
+│ └── test.rs # Temel unit/integration testler
+├── Cargo.toml
+├── README.md
+└── assets/
+└── image.png # OwlToken logosu
+
+
+---
+
+## Katkı & Lisans
+
+Her türlü geri bildirime ve katkıya açığız.  
+Kod MIT lisansı altındadır.
+
+---
+
+<div align="center">
+  <img src="assets/image.png" width="60" alt="OwlToken logo" />
+  <br/>
+  <b>🦉 OwlToken ile blokzincir üzerinde akıllı, güçlü, şeffaf ve güvenli bir ekonomi!</b>
+</div>
