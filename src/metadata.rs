@@ -1,13 +1,13 @@
 // src/metadata.rs
 
-use soroban_sdk::Symbol;
+use soroban_sdk::{Symbol, symbol_short};
 
 pub fn name() -> Symbol {
-    Symbol::short("OwlToken")
+    symbol_short!("OwlToken")
 }
 
 pub fn symbol() -> Symbol {
-    Symbol::short("OWL")
+    symbol_short!("OWL")  
 }
 
 pub fn decimals() -> u32 {
