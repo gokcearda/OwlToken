@@ -27,6 +27,13 @@ pub struct OwlToken;
 
 #[contractimpl]
 impl OwlToken {
+    pub fn initialize(e: Env, admin: Address) {
+        if e.storage().instance().has(&ADMIN_KEY) {
+            panic!("Contract already initialized");
+        }
+        e.storage().instance().set(&ADMIN_KEY, &admin);
+    }
+
     pub fn transfer(e: Env, from: Address, to: Address, amount: i128) {
         contract::transfer(e, from, to, amount)
     }
